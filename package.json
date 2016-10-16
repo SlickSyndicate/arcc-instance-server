@@ -1,0 +1,20 @@
+{
+  "name": "prototype-server-instance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "random-seed": "^0.3.0",
+    "socket.io": "^1.4.8",
+    "thinky": "^2.3.7"
+  }
+}

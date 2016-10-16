@@ -30,7 +30,7 @@ Dungeon.prototype.addPlayer = function (socket) {
 };
 
 Dungeon.prototype.handleConnection = function (socket) {
-    this.namespace.emit('entity_create', socket.player);
+    socket.broadcast.emit('entity_create', socket.player);
 
     socket.on("dungeon_join", () => {
         socket.emit("dungeon_info", {
